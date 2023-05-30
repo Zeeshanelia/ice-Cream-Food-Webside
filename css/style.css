@@ -1,0 +1,133 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root {
+    --navbar--height: 80px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+#navbar::before {
+    content: "";
+    background-color: rgba(24, 22, 24, 0.911);
+    z-index: -1;
+    opacity: .5;
+    position: absolute;
+    height: 18%;
+    width: 100%;
+}
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    margin: 16px 18px;
+    height: 60px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+font-size: 1.1rem;
+}
+
+#navbar ul li a {
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #f00909;
+}
+
+  a:hover{
+    color: rgb(235, 12, 12);
+    background-color: rgb(235, 220, 20);
+}
+
+#home{
+    height: 354px;
+}
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('../img/Ice-Cream.jpg') no-repeat center/cover;
+    z-index: -2;
+    opacity: 20.7;
+    height: 226%;
+    width: 100%;
+    
+}
+
+.h-primary {
+    position: relative;
+    top: 67px;
+    right: -479px;
+}
+
+p {
+    position: relative;
+    top: 67px;
+    right: -281px;
+}
+
+
+.btn {
+    position: relative;
+    top: 72px;
+    right: -510px;
+}
+
+/* center */
+#servive-center {
+    display: flex;
+    margin: 34px;
+}
+
+#servive-center .box {
+    border: 2px solid red;
+margin: 21px;
+padding: 3px;
+border-radius: 19px;
+}
+
+#servive-center .text-center-1 {
+    font-size: small;
+    top: -2px;
+    left: 0px;
+}
+
+#servive-center .box img {
+    argin: auto;
+    height: 180px;
+    width: 100%;
+    border-radius: 19px;
+}
+
+.Contact-us{
+    text-align: center;
+    margin: auto;
+    
+}
+.h-middel{
+    
+    text-align: center;
+  }
+
+#footer input,
+#footer textarea {
+    width: 800px;
+    padding: 4px;
+
+}
